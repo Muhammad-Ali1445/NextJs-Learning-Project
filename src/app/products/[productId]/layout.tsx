@@ -8,7 +8,9 @@ export default async function productDetailslayout({
   return (
     <>
       {children}
-      <h2>featured products</h2>
+      <h1>featured products</h1>
     </>
   );
 }
+
+

@@ -1,5 +1,12 @@
-export const metadata = {
-  title: "Root Layout",
+import "./globals.css";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Learning Nextjs",
+    template: "%s | Learning Nextjs",
+  },
   description: "Present in root layout",
 };
 
