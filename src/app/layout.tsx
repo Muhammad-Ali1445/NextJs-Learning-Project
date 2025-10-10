@@ -1,4 +1,5 @@
 import "./globals.css";
+import { ErrorWrapper } from "./error-wrapper";
 
 import { Metadata } from "next";
 
@@ -26,7 +27,10 @@ export default function RootLayout({
         >
           <p>Header</p>
         </header>
+        <ErrorWrapper>
+
         {children}
+        </ErrorWrapper>
         <footer style={{ backgroundColor: "red", padding: "1rem" }}>
           <p>Footer</p>
         </footer>

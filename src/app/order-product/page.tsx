@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 
-const productOrderPage = () => {
+const ProductOrderPage = () => {
 
   const router = useRouter();
 
@@ -21,4 +21,4 @@ const productOrderPage = () => {
   );
 };
 
-export default productOrderPage;
+export default ProductOrderPage;
